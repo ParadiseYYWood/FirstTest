@@ -1,0 +1,39 @@
+{
+    "extends": "tslint-config-alloy",
+    "rules": {
+        "no-parameter-properties": false,
+        "triple-equals": false,
+        "no-debugger": false,
+        "no-trailing-whitespace": false,
+        "member-ordering": false,
+        "no-this-assignment": [
+            true,
+            {
+                "allowed-names": [
+                    "^self$",
+                    "^that$"
+                ],
+                "allow-destructuring": true
+            }
+        ],
+        "only-arrow-functions": [
+            false,
+            "allow-declarations",
+            "allow-named-functions"
+        ],
+        "no-empty": [
+            false,
+            "allow-empty-catch"
+        ],
+        "no-unnecessary-type-assertion": false,
+        "return-undefined": false,
+        "no-for-in-array": false,
+        "comment-format": [
+            true,
+            "check-space"
+        ]
+    },
+    "rulesDirectory": [
+        "node_modules/tslint-eslint-rules/dist/rules"
+    ]
+}
