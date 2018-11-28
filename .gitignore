@@ -1,4 +1,5 @@
 doc/
 dist/
 coverage/
-node_modulesi/
+node_modules/
+.vscode/
